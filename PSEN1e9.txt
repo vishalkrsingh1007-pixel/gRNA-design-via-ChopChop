@@ -1,0 +1,1 @@
+python chopchop.py -G hg38 -Target PSEN1 -e 9 -T 1 -t WHOLE -BED -scoringMethod DOENCH_2016 -p 1000  -offtargetsTable  -v 3 -J -GenBank -repairPredictions HEK293 -TDP 100 -TUP 100 -o ./native_test > ./native_test/APP_results.res
